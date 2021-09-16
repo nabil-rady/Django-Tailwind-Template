@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pages.urls')),
 ]
+
+handler404 = 'pages.views.handler404'
